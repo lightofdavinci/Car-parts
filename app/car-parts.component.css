@@ -1,0 +1,59 @@
+li{
+  background: #24262c;
+}
+
+.description {
+			color: #66d9f7;
+			font-size: small;
+			margin-right:50px;
+		}
+		
+.price {
+			font-weight: bold;
+			color: #9397d8;
+		}
+		
+.featured {
+	background: #57595d;
+	-webkit-border-image: -webkit-linear-gradient(right, #818fd8 0%, #cbb4e2 50%, #a6f2f5 100%);
+	-o-border-image: linear-gradient(to left, #818fd8 0%, #cbb4e2 50%, #a6f2f5 100%);
+	border-image: linear-gradient(to left, #818fd8 0%, #cbb4e2 50%, #a6f2f5 100%);
+	border-image-slice: 1;
+}
+
+.photo{	
+		float: left;
+		margin-right: 30px;
+	}
+	
+img{
+	width:200px;
+}	
+
+input{
+	width:20px;
+	text-align:center;
+	color:#333;
+}
+
+button {
+	width:25px;
+}
+
+.card {
+	margin-top:20px;
+	border: 2px solid white;
+}
+
+.panel-body {
+  display: table;
+  padding: 0;
+}
+
+.total{ 
+	color: #fd79fc;
+	}
+	
+.inventory{
+	margin-top: 100px;
+}	
